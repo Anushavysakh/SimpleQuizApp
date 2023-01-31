@@ -8,7 +8,7 @@ class QuizApp extends StatelessWidget {
 
   final List<Map<String, Object>> questions;
   final int questionIndex;
-  final Function answerQuestion; // quiz score
+  final Function answerQuestion; //  for quiz score
 
   const QuizApp({
     required this.questions,
